@@ -75,6 +75,8 @@ typedef enum {
 
 #pragma mark Configurable Presentation Properties
 
+@property (nonatomic, NI_STRONG) NSDictionary *userinfo;
+
 @property (nonatomic, readwrite, NI_STRONG) UIImage* initialImage;     // Default: nil
 @property (nonatomic, readwrite, assign) BOOL sizeForDisplay;       // Default: YES
 @property (nonatomic, readwrite, assign) NINetworkImageViewScaleOptions scaleOptions; // Default: NINetworkImageViewScaleToFitLeavesExcessAndScaleToFillCropsExcess
