@@ -163,6 +163,10 @@
 #define kCFCoreFoundationVersionNumber_iOS_5_1 690.1
 #endif
 
+#ifndef kCFCoreFoundationVersionNumber_iOS_7_0
+#define kCFCoreFoundationVersionNumber_iOS_7_0 847.2
+#endif
+
 #if __cplusplus
 extern "C" {
 #endif
